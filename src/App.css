@@ -1,0 +1,104 @@
+.alert {
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+.alert-danger {
+  color: #a94442;
+  background-color: #f2dede;
+  border-color: #ebccd1;
+}
+
+.login-container {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: center;
+}
+
+.login-container h2 {
+  margin-bottom: 20px;
+}
+
+.register-container h2 {
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input, .form-group select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button, .navlink-button {
+  flex: 1; 
+  padding: 10px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  text-align: center;
+}
+
+button:hover, .navlink-button:hover {
+  background-color: #0056b3;
+}
+
+.navlink-button {
+  text-decoration: none; 
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+}
+
+.lista-eventos-container h2 {
+  margin-bottom: 10px;
+}
+
+.lista-eventos-container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.lista-eventos-container li {
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.section {
+  min-height: 200px; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.section h2 {
+  margin-bottom: 20px;
+}
+
+.lista-eventos {
+  max-height: 300px; 
+  overflow-y: auto;  
+  padding-right: 10px; 
+}
+
